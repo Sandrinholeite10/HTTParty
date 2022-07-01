@@ -9,3 +9,10 @@ Funcionalidade: Pesquisar Funcionarios
        Dado que o usuario consulte informações de fucncionario
        Quando ele realizar a pesquisa
        Então uma lista de funcionarios deve retornar
+
+    @cen_dois
+    Cenario: Cadastrar funcionario
+       Dado que o usuario cadatre um novo funcionario
+       Quando ele enviar as informações do funcionario
+       Então esse funcionario sera cadastrado
+ 
