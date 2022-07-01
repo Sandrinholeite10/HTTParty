@@ -15,4 +15,9 @@ Funcionalidade: Pesquisar Funcionarios
        Dado que o usuario cadatre um novo funcionario
        Quando ele enviar as informações do funcionario
        Então esse funcionario sera cadastrado
- 
+
+    @cen_tres
+    Cenario: Alterar informações cadastrais
+       Dado que o usuario altere uma informação de funcionario
+       Quando ele enviar as novas informações
+       Então as informações serão alteradas
