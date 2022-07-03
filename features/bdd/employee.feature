@@ -5,6 +5,7 @@ Funcionalidade: Pesquisar Funcionarios
     O usuário do sistema 
     Deseja poder consultar informações dos Funcionarios
 
+    @cenario 
     Cenario: Buscar informações de funcionario
        Dado que o usuario consulte informações de fucncionario
        Quando ele realizar a pesquisa
@@ -21,3 +22,9 @@ Funcionalidade: Pesquisar Funcionarios
        Dado que o usuario altere uma informação de funcionario
        Quando ele enviar as novas informações
        Então as informações serão alteradas
+
+    @cen_quatro
+    Cenario: Deletar cadastro de funcionario
+        Dado que o usuario queira deletar um funcionario
+        Quando ele enviar a identificação unica
+        Então esse funcionario sera deletado do sistema
